@@ -1,0 +1,79 @@
+ /* Home Page CSS */
+ 
+ .Homebkgd {
+    background-image: url("../assets/burgerhero.jpg");
+    height: 95vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    /* z-index: -10; */
+   }
+
+.HomebkgdOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    /* z-index: -5; */
+}
+
+ nav {
+     background-color: #512410;
+     /* z-index: 3; */
+ }
+
+.Navbar h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    padding: .3em 0 0 0;
+    margin: 0 0 2em 0;
+    text-align: center;
+  }
+
+.CallToAction {
+    background: white;
+    width:100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    display:block; 
+    text-align: center;
+}
+
+.Homeform {
+    background: white;
+    width: 90%;
+    padding: 0 0 30px 40px;
+}
+
+.HomeFooter {
+    height: 50px;
+    background: #512410;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* z-index: -3; */
+}
+
+.button1 {
+    text-align: center; 
+}
+
+@media (min-width: 500px) {
+
+.CallToAction {
+    width: 500px;
+    margin: 3em auto;
+    }
+}
